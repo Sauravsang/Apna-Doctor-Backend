@@ -23,7 +23,7 @@ connectDB();
 
 
 app.use(cors({
-    origin: ["http://localhost:5173","https://68126eeec63b0252dc555593--apnadoctor.netlify.app/"],
+    origin: ["http://localhost:5173","https://apnadoctor.netlify.app"],
     credentials: true,
 }));
 app.use(express.json());
