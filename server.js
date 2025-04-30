@@ -77,7 +77,6 @@ app.post('/signupdoc', async (req, res, next) => {
     
 
 
-// Assuming you're using a single User model with `role` and `isApproved` fields
 
 app.get("/doctor/pending-users", async (req, res) => {
   try {
